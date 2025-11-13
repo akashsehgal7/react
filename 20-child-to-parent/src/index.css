@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,body {
+  height: 100%;
+  width: 100%;
+}
+ 
+
+button {
+  background-color: aquamarine;
+  padding: 10px 40px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid yellow;
+}
+
+button:active {
+  transform: scale(0.95);
+}
